@@ -3,10 +3,117 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+  	<header class="page-header">
+		<!-- Размеры и пути картинкам заданы произвольно, вырезать будем на следующих вебинарах-->
+		<a class="page-header-logo">
+			<img src="img/logo" alt="Дизайн-студия Нёрдс" width="100" height="100">
+		</a>
+		<nav class="main-menu">
+			<ul class="site-menu">
+				<li><a class="site-menu-list" href="#">Студия</a></li>
+				<li><a class="site-menu-list" href="#">Клиенты</a></li>
+				<li><a class="site-menu-list" href="catalog.html">Магазин</a></li>
+				<li><a class="site-menu-list" href="#">Контакты</a></li>
+				<li><a class="site-menu-list" href="#">Корзина</a></li>
+			</ul>
+		</nav>
+		<!-- Нужно доверстать еще 2 слайда -->
+		<div class="slider">
+			<h3>Долго, дорого, скрупулезно.</h3>
+			<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>	
+			<a class="btn" href="#">Узнать больше</a>		
+		</div>
+	</header>
+	<main class="content">
+		<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
+		<section class="advantages">
+			<h2 class="visually-hidden">Преимущества</h2>
+			<ul class="advantages-list">
+				<li class="advantages-item">
+					<h3>Веб-сайты</h3>
+					<p>Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
+					<a class="btn" href="#">Заказать</a>
+				</li>
+				<li class="advantages-item">
+					<h3>Приложения</h3>
+					<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+					<a class="btn" href="#">Заказать</a>
+				</li>
+				<li class="advantages-item">
+					<h3>Презентации</h3>
+					<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+					<a class="btn" href="#">Заказать</a>
+				</li>
+			</ul>
+		</section>
+		<section class="features">
+			<h2 class="visually-hidden">Наши особенности</h2>
+			<b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
+			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+			<b>Выполняем заказы на разработку:</b>
+			<ul class="development">
+				<li>Веб-сайтов любой сложности</li>
+				<li>Мобильных приложений для iOS и Android</li>
+				<li>Слайдшоу и видео для корпоративных презентаций</li>
+			</ul>
+			<div class="features-precision">
+				<img src="img/content-logo" alt="Студия Нёрдс" width="100" height="100">
+				<p>С 2004 года любим точность во всем:</p>
+				<table class="features-table">
+					<tr>
+						<th>146 <sup>%</sup></th>
+						<th>100 <sup>%</sup></th>
+						<th>50 <sup>%</sup></th>
+					</tr>
+					<tr>
+						<td>Уровень самоотдачи</td>
+						<td>Соблюдение сроков</td>
+						<td>Минимальная предоплата</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<section class="partners">
+			<h2 class="visually-hidden">Наши партнеры</h2>
+			<ul class="partners-list">
+				<li><a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank"><img src="img/" alt="html_academy" width="100" height="100"></a></li>
+				<li><a href="#"><img src="img/" alt="barbershop_borodinski" width="100" height="100"></a></li>
+				<li><a href="#"><img src="img/" alt="pink app" width="100" height="100"></a></li>
+				<li><a href="#"><img src="img/" alt="mishka" width="100" height="100"></a></li>
+			</ul>
+		</section>
+		<section class="modal-map">
+			<h2 class="visually-hidden">Контакты</h2>
+			<img class="map-contacts" src="img/" alt="Как к нам добраться" width="100" height="100">
+			<div class="contacts">
+				<h3>NЁRDS DESIGN STUDIO</h3>
+				<p>191186, Санкт-Петербург,<br>
+				ул. Б. Конюшенная, д. 19/8<br>
+				тел. +7 (812) 275-75-75</p>
+				<a class="btn" href="mailto:">Напишите нам</a>
+			</div>
+		</section>
+	</main>
+	<footer class="page-footer">
+		<div class="footer-social">
+		    <b>Давайте дружить, это выгодно!</b>
+			<p>Скидка 10% для друзей из социальных сетей.</p>
+	    	<a class="social-btn" href="https://vk.com/">Вконтакте</a>
+	    	<a class="social-btn" href="https://facebook.com/">Фейсбук</a>
+	    	<a class="social-btn" href="https://instagram.com/">Инстаграм</a>
+		</div>
+	</footer>
+	<section class="feedback">
+		<h2>Напишите нам</h2>
+		<!-- Форму верстаем на следующих вебинарах-->
+		<p>Ваше имя:</p>
+		<p>Ваш e-mail:</p>
+		<p>Текст письма:</p>
+        <span class="modal-close">х</span>
+        <button class="btn">Отправить</button>
+	</section>
   </body>
 </html>
