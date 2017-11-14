@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"> 
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
   	<header class="page-header">
@@ -16,8 +18,10 @@
 				<li><a class="site-menu-list" href="#">Клиенты</a></li>
 				<li><a class="site-menu-list" href="catalog.html">Магазин</a></li>
 				<li><a class="site-menu-list" href="#">Контакты</a></li>
-				<li><a class="site-menu-list" href="#">Корзина</a></li>
 			</ul>
+			<div class="cart-menu">
+				<a class="cart-menu-link" href="#">Корзина</a>	
+			</div>
 		</nav>
 		<div class="slider">
 			<input type="radio" name="toggle" id="toggle-1" checked>
@@ -87,22 +91,24 @@
 		</section>
 		<section class="features">
 			<h2 class="visually-hidden">Наши особенности</h2>
-			<b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
-			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-			<b>Выполняем заказы на разработку:</b>
-			<ul class="development">
-				<li>Веб-сайтов любой сложности</li>
-				<li>Мобильных приложений для iOS и Android</li>
-				<li>Слайдшоу и видео для корпоративных презентаций</li>
-			</ul>
+			<div class="features-studio">
+				<p class="studio-title"><b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b></p>
+				<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+				<p class="development-title"><b>Выполняем заказы на разработку:</b></p>
+				<ul class="development">
+					<li>Веб-сайтов любой сложности</li>
+					<li>Мобильных приложений для iOS и Android</li>
+					<li>Слайдшоу и видео для корпоративных презентаций</li>
+				</ul>
+			</div>
 			<div class="features-precision">
 				<img src="img/content-logo.png" alt="Студия Нёрдс" width="360" height="208">
-				<p>С 2004 года любим точность во всем:</p>
+				<p class="development-title">С 2004 года любим точность во всем:</p>
 				<table class="features-table">
 					<tr>
-						<th>146 <sup>%</sup></th>
-						<th>100 <sup>%</sup></th>
-						<th>50 <sup>%</sup></th>
+						<th>146<sup>%</sup></th>
+						<th>100<sup>%</sup></th>
+						<th>50<sup>%</sup></th>
 					</tr>
 					<tr>
 						<td>Уровень самоотдачи</td>
@@ -126,18 +132,20 @@
 			<img class="map-contacts" src="img/map.jpg" alt="Адрес студии: Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="1440" height="415">
 			<div class="contacts">
 				<h3>NЁRDS DESIGN STUDIO</h3>
-				<address>191186, Санкт-Петербург,<br>
-				ул. Б. Конюшенная, д. 19/8<br>
-				тел. +7 (812) 275-75-75</address>
+				<p>191186, Санкт-Петербург,<br>
+				ул. Б. Конюшенная, д. 19/8</p>
+				<p>тел. +7 (812) 275-75-75</p>
 				<a class="btn" href="mailto:">Напишите нам</a>
 			</div>
 		</section>
 	</main>
 	<footer class="page-footer">
-		<div class="footer-social">
-		    <b>Давайте дружить, это выгодно!</b>
+		<div class="footer-friends">
+			<p class="friends-title"><b>Давайте дружить, это выгодно!</b></p>
 			<p>Скидка 10% для друзей из социальных сетей.</p>
-	    	<a class="social-btn" href="https://vk.com/">Вконтакте</a>
+		</div>
+		<div class="footer-social">
+		    <a class="social-btn" href="https://vk.com/">Вконтакте</a>
 	    	<a class="social-btn" href="https://facebook.com/">Фейсбук</a>
 	    	<a class="social-btn" href="https://instagram.com/">Инстаграм</a>
 		</div>
@@ -158,7 +166,7 @@
 					<label for="message-field">Текст письма:</label>
 					<textarea name="feedback-message" id="message-field" placeholder="В свободной форме" required></textarea>
 				</div>
-        		<input class="btn" type="submit" value="Отправить">
+        		<button class="btn" type="submit">Отправить</button>
         	</form>
         </div>
         <div class="feedback-button">

@@ -1,0 +1,348 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #283136;
+
+	background-color: #ffffff;
+}
+
+a {
+  	text-decoration: none;
+}
+
+.btn {
+	font-family: "Roboto Medium", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	background-color: #fb565a;
+	border: none;
+}
+
+.btn:hover,
+.btn:focus {
+	background-color: #e74246;
+}
+
+.btn:active {
+	color: rgba(255, 255, 255, 0.3);
+
+	background-color: #d7373b;
+}
+
+.page-header {
+	background-color: #eeeeee;
+}
+
+.main-menu {
+	font-family: "Roboto Medium", "Arial", sans-serif;
+	line-height: 30px;
+	color: #000000;
+}
+
+.site-menu {
+	list-style: none;
+}
+
+.site-menu a,
+.cart-menu a {
+	color: #000000;
+}
+
+.site-menu a:hover,
+.site-menu a:focus,
+.cart-menu a:focus,
+.cart-menu a:hover {
+	color: #fb565a;
+}
+
+.site-menu a:active,
+.cart-menu a:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.slides-item-text h3 {
+	font-family: "Roboto Medium", "Arial", sans-serif;
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.advantages-list {
+	list-style: none;
+}
+
+.advantages-item h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.features .studio-title {
+	font-family: "Roboto Medium", "Arial", sans-serif;
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.features .development-title {
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.features-studio .development {
+	list-style: none;
+}
+
+.features-table th {
+	font-size: 45px;
+	line-height: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.features-table th sup {
+	font-size: 30px;
+	line-height: 10px;
+}
+
+.partners .partners-list {
+	list-style: none;
+}
+
+.partners .partners-list img {
+	opacity: 0.2;
+}
+
+.partners .partners-list img:hover,
+.partners .partners-list img:focus {
+	opacity: 1;
+}
+
+.partners .partners-list img:active {
+	opacity: 0.1;
+}
+
+.contacts h3 {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.contacts p {
+	line-height: 18px;
+	color: #666666;
+}
+
+.catalog-page .page-header img:hover,
+.catalog-page .page-header img:focus {
+	opacity: 0.8;
+}
+
+.catalog-page .page-header img:active {
+	opacity: 0.3; 
+}
+
+.catalog-page .site-menu .site-menu-active {
+	border-bottom: 2px solid #fb565a;
+}
+
+
+.container .page-title {
+	font-family: "Roboto Medium", "Arial", sans-serif;
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.filter .filter-controls-price input {
+	font: inherit;
+
+	background-color: #eeeeee;
+	border: none;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter .filter-title {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+
+	text-transform: uppercase;
+}
+
+.filter ul {
+    list-style: none;
+}
+
+.filter-input + label {
+	line-height: 20px;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+	color: #000000;
+}
+
+.filter-input:disabled + label {
+    color: rgba(40, 49, 54, 0.3);
+}
+
+.filter .show-button {
+	color: #000000;
+
+	background-color: #eeeeee;
+}
+
+.filter .show-button:hover,
+.filter .show-button:focus {
+	background-color: #dfdfdf;
+}
+
+.filter .show-button:active {
+	color: rgba(0, 0, 0, 0.3);
+
+	background-color: #d5d5d5;
+}
+
+.catalog-sort span {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #000000;
+
+	text-transform: uppercase;
+}
+
+.catalog-sort ul {
+	list-style: none;
+}
+
+.catalog-sort a {
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(0, 0, 0, 0.3)	
+}
+
+.catalog-sort a:hover,
+.catalog-sort a:focus {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.catalog-sort a:active,
+.catalog-sort .sort-active {
+	color: #000000;
+}
+
+.catalog-list {
+	list-style: none;
+}
+
+.catalog-item-info .goods-title {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+
+	text-transform: uppercase;
+}
+
+.catalog-item-info p {
+	line-height: 18px;
+	color: #666666;
+}
+
+.catalog-item-info .price-btn:active {
+	color: #ffffff;
+}
+
+.catalog .pagination {
+	list-style: none;
+}
+
+.pagination-item a {
+	font-family: "Roboto Medium", "Arial", sans-serif;
+	line-height: 18px;
+	color: #000000;
+
+	background-color: #eeeeee;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus {
+	background-color: #dfdfdf;
+}
+
+.pagination-item a:active {
+	color: rgba(0, 0, 0, 0.3);
+
+	background-color: #d5d5d5;
+}
+
+.pagination-item-current a {
+	background-color: #ffffff;
+
+	border: 3px solid #dbdbdb;
+
+}
+
+.footer-friends .friends-title {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.footer-friends p {
+	color: #444444;
+}
+
+.footer-social .social-btn {
+	color: #444444;
+}
+
+.feedback h2 {
+	font-family: "Roboto Medium", "Arial", sans-serif;
+	font-size: 45px;
+	line-height: 45px;
+	color: #000000;
+}
+
+.feedback-form label {
+	line-height: 18px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+	font: inherit;
+	line-height: 18px;
+
+	background-color: transparent;
+	border: 2px solid #d7dcde;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+	border-color: #b4b9bb;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+	border-color: #000000;
+}
