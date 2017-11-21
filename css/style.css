@@ -195,7 +195,7 @@ a {
 /* Стили для блока преимуществ */
 .advantages-list {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	min-height: 347px;
 	margin: 0;
 	margin-bottom: 80px;
