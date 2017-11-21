@@ -9,10 +9,10 @@
   </head>
   <body>
   	<header class="page-header">
-		<a class="page-header-logo">
-			<img src="img/logo.svg" alt="Дизайн-студия Нёрдс" width="160" height="65">
-		</a>
-		<nav class="main-menu">
+		<nav class="main-menu container">
+			<a class="page-header-logo">
+				<img src="img/logo.svg" alt="Дизайн-студия Нёрдс" width="160" height="65">
+			</a>
 			<ul class="site-menu">
 				<li><a class="site-menu-list" href="#">Студия</a></li>
 				<li><a class="site-menu-list" href="#">Клиенты</a></li>
@@ -23,7 +23,7 @@
 				<a class="cart-menu-link" href="#">Корзина</a>	
 			</div>
 		</nav>
-		<div class="slider">
+		<div class="slider container">
 			<input type="radio" name="toggle" id="toggle-1" checked>
 			<input type="radio" name="toggle" id="toggle-2">
 			<input type="radio" name="toggle" id="toggle-3">
@@ -40,8 +40,6 @@
 						<a class="btn" href="#">Узнать больше</a>	
 					</div>
 				</div>
-			</div>
-			<div class="slides-list">
 				<div class="slides-item">
 					<div class="slides-item-text">
 						<h3>Любим математику как никто другой</h3>
@@ -49,8 +47,6 @@
 						<a class="btn" href="#">Узнать больше</a>	
 					</div>
 				</div>
-			</div>
-			<div class="slides-list">
 				<div class="slides-item">
 					<div class="slides-item-text">
 						<h3>Только ночь,<br> только хардкор</h3>
@@ -63,7 +59,7 @@
 	</header>
 	<main class="content">
 		<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
-		<section class="advantages">
+		<section class="advantages container">
 			<h2 class="visually-hidden">Преимущества</h2>
 			<ul class="advantages-list">
 				<li class="advantages-item">
@@ -89,7 +85,7 @@
 				</li>
 			</ul>
 		</section>
-		<section class="features">
+		<section class="features container">
 			<h2 class="visually-hidden">Наши особенности</h2>
 			<div class="features-studio">
 				<p class="studio-title"><b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b></p>
@@ -118,7 +114,7 @@
 				</table>
 			</div>
 		</section>
-		<section class="partners">
+		<section class="partners container">
 			<h2 class="visually-hidden">Наши партнеры</h2>
 			<ul class="partners-list">
 				<li><a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank"><img src="img/partners-logo1.png" alt="Html Academy" width="202" height="71"></a></li>
@@ -139,15 +135,15 @@
 			</div>
 		</section>
 	</main>
-	<footer class="page-footer">
+	<footer class="page-footer container">
 		<div class="footer-friends">
 			<p class="friends-title"><b>Давайте дружить, это выгодно!</b></p>
 			<p>Скидка 10% для друзей из социальных сетей.</p>
 		</div>
 		<div class="footer-social">
-		    <a class="social-btn" href="https://vk.com/">Вконтакте</a>
-	    	<a class="social-btn" href="https://facebook.com/">Фейсбук</a>
-	    	<a class="social-btn" href="https://instagram.com/">Инстаграм</a>
+		    <a class="social-btn social-btn-vk" href="https://vk.com/">Вконтакте</a>
+	    	<a class="social-btn social-btn-fb" href="https://facebook.com/">Фейсбук</a>
+	    	<a class="social-btn social-btn-in" href="https://instagram.com/">Инстаграм</a>
 		</div>
 	</footer>
 	<section class="feedback">
@@ -159,7 +155,7 @@
 					<input type="text" name="feedback-username" id="username-field" placeholder="Представьтесь, пожалуйста" required>
 				</div>
 				<div class="feedback-form-right">
-					<label>Ваш e-mail:</label>
+					<label for="email-field">Ваш e-mail:</label>
 					<input type="email" name="feedback-email" id="email-field" placeholder="Для отправки ответа" required>
 				</div>
 				<div class="feedback-form-data">
