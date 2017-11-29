@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  	text-decoration: none;
+	text-decoration: none;
 }
 
 img {
- 	max-width: 100%;
-  	height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 .btn {
@@ -56,19 +56,19 @@ img {
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
-   	position: absolute;
+	position: absolute;
 
-   	width: 1px;
-   	height: 1px;
-   	margin: -1px;
-   	padding: 0;
-   	border: 0;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
 
-   	white-space: nowrap;
+	border: 0;
+	white-space: nowrap;
 
-   	clip-path: inset(100%);
-   	clip: rect(0 0 0 0);
-   	overflow: hidden;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 hr {
@@ -82,7 +82,7 @@ hr {
 .container {
 	width: 1160px;
 	margin: 0 auto;
-    padding: 0 20px;
+	padding: 0 20px;
 }
 
 .page-header {
@@ -95,7 +95,7 @@ hr {
 
 .main-menu {
 	display: -webkit-box;
-    display: -ms-flexbox;
+	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
@@ -119,7 +119,7 @@ hr {
 
 .site-menu {
 	display: -webkit-box;
-    display: -ms-flexbox;
+	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
@@ -229,104 +229,102 @@ hr {
 }
 
 .slider input[type="radio"] {
-    display: none;
+	display: none;
 }
 
 .slider-control {
 	position: absolute;
 	left: 50%;
-  	bottom: 104px;
-  	z-index: 50;
+	bottom: 104px;
+	z-index: 50;
 
-  	width: 195px;
-  	height: 18px;
+	width: 195px;
+	height: 18px;font-size: 0;
 
-  	font-size: 0;
-  	text-align: center;
-  	-webkit-transform: translateX(-50%);
-  	-ms-transform: translateX(-50%);
-  	transform: translateX(-50%);
+	text-align: center;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 .slider-control label {
 	position: relative;
-  
-  	display: inline-block;
-  	width: 18px;
-  	height: 18px;
-  	padding: 8px;
 
-  	vertical-align: top;
-  
-  	border-radius: 50%;
-  	cursor: pointer;  
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	padding: 8px;
+
+	vertical-align: top;
+
+	border-radius: 50%;
+	cursor: pointer;  
 }
 
 .slider-control label::after {
 	content: "";
-  
-  	position: absolute;
-  	top: 8px;
-  	left: 8px;
-  	z-index: 1;  
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	z-index: 1;
 
-  	width: 18px;
-  	height: 18px;
-  
-  	background-color: #ffffff;  
- 	border-radius: 50%;
+	width: 18px;
+	height: 18px;
+
+	background-color: #ffffff;
+	border-radius: 50%;
 }
 
 .slider-control label::before {
 	content: "";
-  
-  	position: absolute;
-  	left: 50%;
-  	top: 50%;
-  	z-index: 2;
-  
-  	display: none;
-  	width: 4px;
-  	height: 4px;
-  	margin: -4px -5px;
-  
-  	background-color: inherit;
-  	border: 2px solid #c1c1c1;
-  	border-radius: 50%;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+
+	display: none;
+	width: 4px;
+	height: 4px;
+	margin: -4px -5px;
+
+	background-color: inherit;
+	border: 2px solid #c1c1c1;
+	border-radius: 50%;
 }
 
 .slides-item {
-    display: none;
-    min-height: 428px;
+	display: none;
+	min-height: 428px;
 
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
 .slides-item:nth-child(1) {
 	background-image: url("../img/slide1.png");
 	background-position: 429px 13px;
-} 
+}
 
 .slides-item:nth-child(2) {
 	background-image: url("../img/slide2.png");
 	background-position: 494px 0;
-} 
+}
 
 .slides-item:nth-child(3) {
 	background-image: url("../img/slide3.png");
 	background-position: 401px 17px;
-}  
+}
 
 #toggle-1:checked ~ .slides-list .slides-item:nth-child(1) {
-   display: block;
+	display: block;
 }
 
 #toggle-2:checked ~ .slides-list .slides-item:nth-child(2) {
-   display: block;
+	display: block;
 }
 
 #toggle-3:checked ~ .slides-list .slides-item:nth-child(3) {
-   display: block;
+	display: block;
 }
 
 #toggle-1:checked ~ .slider-control label[for="toggle-1"]::before,
@@ -365,7 +363,7 @@ hr {
 	min-height: 347px;
 	margin: 0;
 	margin-bottom: 80px;
-    padding: 0;
+	padding: 0;
 
 	list-style: none;
 }
@@ -681,7 +679,7 @@ hr {
 
 	background-image: url("../img/map-marker.png");
 	background-repeat: no-repeat;
-  	background-position: 0 0;
+	background-position: 0 0;
 }
 
 /* Стили для фильтра шаблонов */
@@ -702,7 +700,7 @@ hr {
 	margin-bottom: 46px;
 	padding: 0;
 
-    border: none;
+	border: none;
 }
 
 .filter .filter-title {
@@ -731,7 +729,7 @@ hr {
 	margin-bottom: 13px;
 	padding-top: 39px;
 	padding-right: 20px;
-  	padding-left: 20px;
+	padding-left: 20px;
 
 	background-color: #eeeeee;
 	border-radius: 5px;
@@ -752,20 +750,20 @@ hr {
 
 .filter-controls-range .filter-toggle {
 	position: absolute;
-  	top: 31px;
-  	left: 0;
+	top: 31px;
+	left: 0;
 
 	width: 4px;
-  	height: 4px;
-  	padding: 0;
+	height: 4px;
+	padding: 0;
 
-  	border: 8px solid #ffffff;
-  	border-radius: 50%;
-  	background-color: #ababab;
-  	-webkit-box-shadow: 0 2px 1px 0 #cfcfcf;
-  	box-shadow: 0 2px 1px 0 #cfcfcf;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	background-color: #ababab;
+	-webkit-box-shadow: 0 2px 1px 0 #cfcfcf;
+	box-shadow: 0 2px 1px 0 #cfcfcf;
 
-  	cursor: pointer;
+	cursor: pointer;
 }
 
 .filter-controls-range .filter-toggle-min {
@@ -782,11 +780,11 @@ hr {
 
 .filter-controls-price label {
 	display: inline-block;
-  	width: 50%;
-  
-  	font-size: 16px;
-  	text-transform: uppercase;
-  	vertical-align: top;
+	width: 50%;
+
+	font-size: 16px;
+	text-transform: uppercase;
+	vertical-align: top;
 }
 
 .filter-controls-price input {
@@ -807,13 +805,13 @@ hr {
 
 .filter-controls-price .controls-price-to {
 	text-align: right;
-} 
+}
 
 .filter ul {
 	padding: 0;
-  	margin: 0;
+	margin: 0;
 
-    list-style: none;
+	list-style: none;
 }
 
 .filter .filter-item {
@@ -836,10 +834,10 @@ hr {
 .filter-item label {
 	position: relative;
 
-  	display: block;
+	display: block;
 
-  	cursor: pointer;
-  	user-select: none;
+	cursor: pointer;
+	user-select: none;
 }
 
 .filter-input + label {
@@ -852,65 +850,64 @@ hr {
 }
 
 .filter-input:disabled + label {
-    color: rgba(40, 49, 54, 0.3);
+	color: rgba(40, 49, 54, 0.3);
 }
 
 .filter-input-radio + label::before {
-  	content: "";
+	content: "";
 
-  	position: absolute;
-  	top: -4px;
-  	left: -35px;
+	position: absolute;
+	top: -4px;
+	left: -35px;
 
-  	width: 17px;
-  	height: 17px;
-  
-  	border: 4px solid #b8b8b8;
-  	border-radius: 50%;
+	width: 17px;
+	height: 17px;
+	border: 4px solid #b8b8b8;
+	border-radius: 50%;
 }
 
 .filter-input-radio:checked + label::after {
-  	content: "";
+	content: "";
 
-  	position: absolute;
-  	top: 4px;
-  	left: -27px;
+	position: absolute;
+	top: 4px;
+	left: -27px;
 
-  	width: 9px;
-  	height: 9px;
+	width: 9px;
+	height: 9px;
 
-  	background-color: #b8b8b8;
-  	border-radius: 50%;
+	background-color: #b8b8b8;
+	border-radius: 50%;
 }
 
 .filter-input-checkbox + label::before {
-  	content: "";
+	content: "";
 
-  	position: absolute;
-  	left: -36px;
+	position: absolute;
+	left: -36px;
 
-  	width: 27px;
-  	height: 23px;
+	width: 27px;
+	height: 23px;
 
-  	background-image: url("../img/checkbox-off.svg");
-  	background-repeat: no-repeat;
-  	background-position: 0 0;
-  	opacity: 0.4;
+	background-image: url("../img/checkbox-off.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.4;
 }
 
 .filter-input-checkbox:checked + label::after {
-  	content: "";
+	content: "";
 
-  	position: absolute;
-  	left: -36px; 
+	position: absolute;
+	left: -36px;
 
-  	width: 27px;
-  	height: 23px;
-  
-  	background-image: url("../img/checkbox-on.svg");
-  	background-repeat: no-repeat;
-  	background-position: 0 0;
-  	opacity: 0.4;
+	width: 27px;
+	height: 23px;
+
+	background-image: url("../img/checkbox-on.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.4;
 }
 
 .filter-input-radio:hover + label::after,
@@ -1195,8 +1192,8 @@ hr {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 444px;
+	flex-wrap: wrap;
+	width: 444px;
 	margin: 0;
 	margin-bottom: 59px;
 	padding: 0;
@@ -1222,7 +1219,6 @@ hr {
 	min-width: 50px;
 	height: 50px;
 	padding: 16px 17px;
-
 
 	font-family: "Roboto", "Arial", sans-serif;
 	line-height: 18px;
@@ -1329,13 +1325,13 @@ hr {
 
 .footer-social .social-btn-fb {
 	background-image: url("../img/fb-icon.svg");
-} 
+}
 
 .footer-social .social-btn-in {
 	margin-right: 0;
 
 	background-image: url("../img/insta-icon.svg");
-} 
+}
 
 .footer-social .social-btn:hover,
 .footer-social .social-btn:focus {
@@ -1350,7 +1346,7 @@ hr {
 .footer-social .social-btn-fb:active,
 .footer-social .social-btn-in:active {
 	opacity: 0.3;
-} 
+}
 
 /* Стили для блока обратной связи */
 .feedback {
@@ -1401,7 +1397,7 @@ hr {
 	width: 360px;
 	margin: 0;
 	margin-top: 14px;
-    margin-bottom: 17px;
+	margin-bottom: 17px;
 }
 
 .feedback-form .form-data {
@@ -1446,16 +1442,16 @@ hr {
 
 .feedback-form input:focus,
 .feedback-form textarea:focus {
-    color: #444444;
+	color: #444444;
 
 	border-color: #000000;
 	outline: none;
 }
 
 .feedback-form input:focus:invalid {
-  	color: #e74246;
+	color: #e74246;
 
-  	border-color: #e74246;
+	border-color: #e74246;
 }
 
 .feedback-form .btn {
@@ -1468,40 +1464,40 @@ hr {
 	right: 91px;
 
 	width: 23px;
-  	height: 23px;
+	height: 23px;
 
-  	font-size: 0;
+	font-size: 0;
 
-  	border: 0;
-  	background-color: transparent;
+	border: 0;
+	background-color: transparent;
 
-  	cursor: pointer;
+	cursor: pointer;
 }
 
 .feedback .modal-close::before,
 .feedback .modal-close::after {
-  	content: "";
+	content: "";
 
-  	position: absolute;
-  	top: 10px;
-  	left: 2px;
+	position: absolute;
+	top: 10px;
+	left: 2px;
 
-  	width: 24px;
-  	height: 4px;
+	width: 24px;
+	height: 4px;
 
-  	background-color: #fecccd;
+	background-color: #fecccd;
 }
 
 .feedback .modal-close::before {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
-  	transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .feedback .modal-close::after {
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
-  	transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 
 .feedback .modal-close:hover::before,
