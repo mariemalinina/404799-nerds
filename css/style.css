@@ -103,6 +103,7 @@ hr {
 	-webkit-box-align: end;
 	-ms-flex-align: end;
 	align-items: flex-end;
+	height: 10px;
 	min-height: 117px;
 
 	font-family: "Roboto Medium", "Arial", sans-serif;
@@ -263,6 +264,7 @@ hr {
 
 .slider-control label::after {
 	content: "";
+
 	position: absolute;
 	top: 8px;
 	left: 8px;
@@ -1124,6 +1126,8 @@ hr {
 	left: 0;
 
 	display: inline-block;
+	width: 100%;
+
 	vertical-align: top;
 	
 	opacity: 0.12;
