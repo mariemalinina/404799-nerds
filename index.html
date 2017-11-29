@@ -152,26 +152,22 @@
 	</footer>
 	<section class="feedback">
 		<h2>Напишите нам</h2>
-		<div class="feedback-form">
-			<form action="https://echo.htmlacademy.ru" method="post">
-				<div class="feedback-form-left">
-					<label for="username-field">Ваше имя:</label>
-					<input type="text" name="feedback-username" id="username-field" placeholder="Представьтесь, пожалуйста" required>
-				</div>
-				<div class="feedback-form-right">
-					<label for="email-field">Ваш e-mail:</label>
-					<input type="email" name="feedback-email" id="email-field" placeholder="Для отправки ответа" required>
-				</div>
-				<div class="feedback-form-data">
-					<label for="message-field">Текст письма:</label>
-					<textarea name="feedback-message" id="message-field" placeholder="В свободной форме" required></textarea>
-				</div>
-        		<button class="btn" type="submit">Отправить</button>
-        	</form>
-        </div>
-        <div class="feedback-button">
-        	<button class="modal-close">Закрыть</button>
-        </div>
+		<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+			<p class="form-item">
+				<label for="username-field">Ваше имя:</label>
+				<input type="text" name="feedback-username" id="username-field" placeholder="Представьтесь, пожалуйста" required>
+			</p>
+			<p class="form-item">
+				<label for="email-field">Ваш e-mail:</label>
+				<input type="email" name="feedback-email" id="email-field" placeholder="Для отправки ответа" required>
+			</p>
+			<p class="form-item form-data">
+				<label for="message-field">Текст письма:</label>
+				<textarea name="feedback-message" id="message-field" placeholder="В свободной форме" required></textarea>
+			</p>
+        	<button class="btn" type="submit">Отправить</button>
+        </form>
+        <button class="modal-close" type="button" aria-label="Закрыть">Закрыть</button>
 	</section>
   </body>
 </html>

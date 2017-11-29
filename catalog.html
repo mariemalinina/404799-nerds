@@ -14,7 +14,7 @@
 				<img src="img/logo.svg" alt="Дизайн-студия Нёрдс" width="160" height="65">
 			</a>
 			<ul class="site-menu">
-				<li><a href="#">Студия</a></li>
+				<li><a href="index.html">Студия</a></li>
 				<li><a href="#">Клиенты</a></li>
 				<li class="site-menu-active"><a href="catalog.html">Магазин</a></li>
 				<li><a href="#">Контакты</a></li>
@@ -64,7 +64,7 @@
 							</li>
 						</ul>
 					</fieldset>
-					<fieldset>
+					<fieldset class="filter-features">
 						<legend class="filter-title">Особенности:</legend>
 						<ul>
 							<li class="filter-item">
@@ -119,7 +119,7 @@
 							<h3>
 								<a class="goods-title" href="#">Sedona</a>
 							</h3>
-							<p>Информационный сайт для туристов</p>
+							<p>Информационный сайт для&nbsp;туристов</p>
 							<a class="btn price-btn" href="#">9 900 руб.</a>
 						</div>
 					</li>
@@ -139,7 +139,7 @@
 							<h3>
 								<a class="goods-title" href="#">Barbershop</a>
 							</h3>
-							<p>Сайт салоны красоты. Для мужчин, да.</p>
+							<p>Сайт салоны красоты. Для&nbsp;мужчин, да.</p>
 							<a class="btn price-btn" href="#">9 900 руб.</a>
 						</div>
 					</li>
@@ -149,7 +149,7 @@
 							<h3>
 								<a class="goods-title" href="#">MISHKA</a>
 							</h3>
-							<p>Интернет-магазин вязаных игрушек</p>
+							<p>Интернет-магазин вязаных&nbsp;игрушек</p>
 							<a class="btn price-btn" href="#">9 900 руб.</a>
 						</div>
 					</li>
@@ -192,6 +192,7 @@
 				<p>тел. +7 (812) 275-75-75</p>
 				<a class="btn" href="mailto:">Напишите нам</a>
 			</div>
+			<div class="map-marker"></div>.*
 		</section>
 	</main>
 	<footer class="page-footer container">
@@ -207,26 +208,22 @@
 	</footer>
 	<section class="feedback">
 		<h2>Напишите нам</h2>
-		<div class="feedback-form">
-			<form action="https://echo.htmlacademy.ru" method="post">
-				<div class="feedback-form-left">
-					<label for="username-field">Ваше имя:</label>
-					<input type="text" name="feedback-username" id="username-field" placeholder="Представьтесь, пожалуйста" required>
-				</div>
-				<div class="feedback-form-right">
-					<label for="email-field">Ваш e-mail:</label>
-					<input type="email" name="feedback-email" id="email-field" placeholder="Для отправки ответа" required>
-				</div>
-				<div class="feedback-form-data">
-					<label for="message-field">Текст письма:</label>
-					<textarea name="feedback-message" id="message-field" placeholder="В свободной форме" required></textarea>
-				</div>
-        		<button class="btn" type="submit">Отправить</button>
-        	</form>
-        </div>
-        <div class="feedback-button">
-        	<button class="modal-close">Закрыть</button>
-        </div>
+		<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+			<p class="form-item">
+				<label for="username-field">Ваше имя:</label>
+				<input type="text" name="feedback-username" id="username-field" placeholder="Представьтесь, пожалуйста" required>
+			</p>
+			<p class="form-item">
+				<label for="email-field">Ваш e-mail:</label>
+				<input type="email" name="feedback-email" id="email-field" placeholder="Для отправки ответа" required>
+			</p>
+			<p class="form-item form-data">
+				<label for="message-field">Текст письма:</label>
+				<textarea name="feedback-message" id="message-field" placeholder="В свободной форме" required></textarea>
+			</p>
+        	<button class="btn" type="submit">Отправить</button>
+        </form>
+        <button class="modal-close" type="button" aria-label="Закрыть">Закрыть</button>
 	</section>
   </body>
 </html>
