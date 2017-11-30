@@ -1,6 +1,5 @@
 /* Общие стили */
 body {
-	position: relative;
 	min-width: 1440px;
 	margin: 0;
 	padding: 0;
@@ -1354,14 +1353,15 @@ hr {
 
 /* Стили для блока обратной связи */
 .feedback {
-	position: absolute;
-	bottom: 185px;
+	position: fixed;
+	top: 50%;
 	left: 50%;
 	z-index: 55;
 
-	display: block;
+	display: none;
 	width: 761px;
 	height: 445px;
+	margin-top: -295px;
 	margin-left: -480px;
 	padding: 65px 100px 80px 99px;
 
@@ -1370,8 +1370,8 @@ hr {
 	box-shadow: 0px 20px 40px 0px rgba(0, 1, 1, 0.75);
 }
 
-.catalog-page .feedback {
-	bottom: 177px;
+.feedback:target{
+	display: block;
 }
 
 .feedback h2 {
