@@ -1,6 +1,6 @@
 /* Общие стили */
 body {
-	min-width: 1440px;
+	min-width: 1200px;
 	margin: 0;
 	padding: 0;
 
@@ -68,13 +68,6 @@ input[type="radio"].visually-hidden {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
-}
-
-hr {
-	height: 2px;
-	
-	background-color: #eeeeee;
-	border: none;
 }
 
 /* Стили для навигации в хедере */
@@ -194,12 +187,12 @@ hr {
 	margin-bottom: 50px;
 }
 
-.catalog-page .page-header img:hover,
-.catalog-page .page-header img:focus {
+.catalog-page .main-logo:hover,
+.catalog-page .main-logo:focus {
 	opacity: 0.8;
 }
 
-.catalog-page .page-header img:active {
+.catalog-page .main-logo:active {
 	opacity: 0.3; 
 }
 
@@ -363,10 +356,12 @@ hr {
 	justify-content: space-between;
 	min-height: 347px;
 	margin: 0;
-	margin-bottom: 80px;
+	margin-bottom: 8px;
 	padding: 0;
+	padding-bottom: 80px;
 
 	list-style: none;
+	border-bottom: 2px solid #eeeeee;
 }
 
 .advantages-item {
@@ -409,33 +404,33 @@ hr {
 	margin-bottom: 32px;
 }
 
-.advantages-item button {
+.advantages-item a {
 	padding: 17px 39px;
 }
 
-.advantages-item:nth-child(2) button {
+.advantages-item:nth-child(2) a {
 	background-color: #00ca74;
 }
 
-.advantages-item:nth-child(2) button:hover,
-.advantages-item:nth-child(2) button:focus {
+.advantages-item:nth-child(2) a:hover,
+.advantages-item:nth-child(2) a:focus {
 	background-color: #00bc6c;
 }
 
-.advantages-item:nth-child(2) button:active {
+.advantages-item:nth-child(2) a:active {
 	background-color: #00aa62;
 }
 
-.advantages-item:nth-child(3) button {
+.advantages-item:nth-child(3) a {
 	background-color: #efc84a;
 }
 
-.advantages-item:nth-child(3) button:hover,
-.advantages-item:nth-child(3) button:focus {
+.advantages-item:nth-child(3) a:hover,
+.advantages-item:nth-child(3) a:focus {
 	background-color: #eab534;
 }
 
-.advantages-item:nth-child(3) button:active {
+.advantages-item:nth-child(3) a:active {
 	background-color: #e5a722;
 }
 
@@ -558,10 +553,6 @@ hr {
 	margin-bottom: 81px;
 }
 
-.partners hr {
-	margin: 0;
-}
-
 .partners .partners-list {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -574,6 +565,8 @@ hr {
 	padding: 0;
 
 	list-style: none;
+	border-top: 2px solid #eeeeee;
+	border-bottom: 2px solid #eeeeee;
 }
 
 .partners-list li {
@@ -619,12 +612,15 @@ hr {
 .modal-map {
 	position: relative;
 
-	width: 1440px;
+	width: 100%;
+	max-width: 1440px;
 	margin: 0 auto;	
+
+	overflow: hidden;
 }
 
 .modal-map img {
-	width: 1440px;
+	min-width: 1440px;
 	height: 415px;
 }
 
@@ -1232,6 +1228,7 @@ hr {
 	text-transform: uppercase;
 
 	background-color: #eeeeee;
+	border-radius: 5px;
 }
 
 .pagination-item a:hover,
@@ -1269,10 +1266,6 @@ hr {
 	display: flex;
 	min-height: 157px;
 	margin-top: 60px;
-}
-
-.catalog-page .page-footer {
-	margin-top: 36px;
 }
 
 .footer-friends {
