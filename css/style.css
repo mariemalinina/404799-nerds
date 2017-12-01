@@ -179,7 +179,7 @@ input[type="radio"].visually-hidden {
 
 /* Стили для меню на странице каталога */
 .catalog-page {
-	min-width: 1440px;
+	min-width: 1200px;
 }
 
 .catalog-page .page-header {
@@ -985,6 +985,8 @@ input[type="radio"].visually-hidden {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 	width: 280px;
 	margin: 0;
 	margin-top: 5px;
@@ -1255,7 +1257,6 @@ input[type="radio"].visually-hidden {
 .pagination-item-current a:focus, 
 .pagination-item-current a:active {
 	background-color: #ffffff;
-
 	border: 3px solid #dbdbdb;
 }
 
@@ -1336,6 +1337,8 @@ input[type="radio"].visually-hidden {
 
 .footer-social .social-btn:active {
 	background-color: #d7373b;
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(0, 1, 1, 0.1) inset;
+	box-shadow: 0px 3px 0px 0px rgba(0, 1, 1, 0.1) inset; 
 }
 
 .footer-social .social-btn-vk:active,
@@ -1363,7 +1366,7 @@ input[type="radio"].visually-hidden {
 	box-shadow: 0px 20px 40px 0px rgba(0, 1, 1, 0.75);
 }
 
-.feedback:target{
+.feedback-show {
 	display: block;
 }
 
