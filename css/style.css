@@ -666,7 +666,9 @@ input[type="radio"].visually-hidden {
 	padding-right: 45px;
 }
 
-.modal-map .map-marker {
+.modal-map::before {
+	content: "";
+
 	position: absolute;
 	top: 89px;
 	left: 812px;
@@ -1341,10 +1343,16 @@ input[type="radio"].visually-hidden {
 	box-shadow: 0px 3px 0px 0px rgba(0, 1, 1, 0.1) inset; 
 }
 
-.footer-social .social-btn-vk:active,
-.footer-social .social-btn-fb:active,
+.footer-social .social-btn-fb:active {
+	background-image: url("../img/fb-icon-transparent.svg");
+}
+
+.footer-social .social-btn-vk:active {
+	background-image: url("../img/vk-icon-transparent.svg");
+}
+
 .footer-social .social-btn-in:active {
-	opacity: 0.3;
+	background-image: url("../img/insta-icon-transparent.svg");
 }
 
 /* Стили для блока обратной связи */
